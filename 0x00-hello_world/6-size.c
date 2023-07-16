@@ -6,11 +6,10 @@
  */
 int main(void)
 {
-	printf("Size of int data types = %2d bytes \n", sizeof(short int));
-	printf("Size of Long int data types = %2d bytes \n", sizeof(long int));
-	printf("Size of float data types = %2d bytes \n", sizeof(float));
-	printf("Size of double float data types = %2d bytes \n", sizeof(double));
-	printf("Size of long double data types = %2d bytes \n", sizeof(long double));
-	printf("Size of char data types = %2d bytes \n", sizeof(char));
+	printf("Size of a char  data type = %lu byte(s)\n", sizeof(char));
+	printf("Size of a int data type = %lu byte(s)\n", sizeof(int));
+	printf("Size of a long int data type = %lu byte(s)\n", sizeof(long int));
+	printf("Size of a long long int data type = %lu byte(s)\n", sizeof(long long int));
+	printf("Size of a float data type = %lu byte(s)\n", sizeof(float));
 	return (0);
 }
