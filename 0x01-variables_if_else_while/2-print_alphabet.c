@@ -6,11 +6,12 @@
  */
 int main(void)
 {
-	char y;
-        for (y = 'a'; y <= 'z'; y++)
+	char *y;
+	for (y = *'a'; y <= *'z'; y++);
 	{
 		putchar(y);
+		putchar('\n');
+		
 	}
-	putchar('\n');
-        return (0);
-}     
+	return (0);
+}
